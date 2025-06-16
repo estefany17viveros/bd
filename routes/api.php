@@ -15,3 +15,13 @@ Route::resource('computer', ComputerController ::class);
 Route::resource('area',AreaController::class);
 
 Route::resource('trainingcenter',TrainingCenterController::class);
+
+Route::resource('teacher',TeacherController::class);
+
+
+Route::resource('apprentice',ApprenticeController::class);
+
+
+Route::resource('course',CourseController::class);
+
+
